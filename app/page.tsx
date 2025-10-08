@@ -8,9 +8,15 @@ export default function Home() {
         these are components from all across the web which I tried to recreate
         for practice
       </p>
-      <ul className="mt-6">
+      <ul className="mt-6 flex flex-col gap-2">
         <Link href="/traffic-lights" className="underline">
           iPadOS Traffic Lights
+        </Link>
+        <Link href="/chat-bubble" className="underline">
+          Chat Bubble
+        </Link>
+        <Link href="/spinner" className="underline">
+          Spinner
         </Link>
       </ul>
     </div>
